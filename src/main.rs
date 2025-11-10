@@ -25,4 +25,9 @@ fn main() {
     stone_cold.push_str("Yeah");
     println!("Stone Cold Says: {:?}",stone_cold);
 
+    // B- &str (String Slice)
+    let string: String = String::from("Hello, World!");
+    let slice:&str = &string[0..5];
+    println!("Slice Value: {}",slice);
+
 }
